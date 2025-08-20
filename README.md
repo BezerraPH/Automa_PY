@@ -1,4 +1,4 @@
-# Essa é uma automação para testar a inserção e atualização de processos no sistema interno da diretoria da instituição que trabalho.
+# Essa é uma automação para testar a inserção e atualização de processos no sistema da diretoria da instituição que trabalho.
 # Basicamente eu pegava todos os dados no nosso sistema interno através de SQL, exportava em CSV e depois rodava o script para atualizar o sistema da diretoria.
 # Ou seja, se você não entendeu até agora, sim, aqui nós utilizamos dois sistemas para controlar a mesma informação, a diferença é que um é local (regional) e o outro nacional.
 
