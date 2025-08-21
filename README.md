@@ -75,7 +75,7 @@ graph TD
 
 Antes que você se pergunte por que a filtragem/busca não é feita diretamente pelo **protocolo**, há um motivo técnico importante.
 
-No sistema da diretoria, o campo `protocolo` não foi implementado como chave primária. Na verdade, ele só foi adicionado como um campo de texto livre após uma solicitação direta, pois, sem uma chave primária, é impossível garantir a atualização correta e segura dos dados.
+No sistema da diretoria, o campo `protocolo` não foi implementado como chave primária. Na verdade, ele só foi adicionado como um campo de texto livre após uma solicitação direta, pois, sem uma chave primária, é impossível garantir a atualização correta e segura dos dados. Além disso, no campo de FILTRAGEM/BUSCA, não existe o campo comentário para que possa ser filtrado pelo número do protocolo. Caso houvesse, bastava modificar o código para, ao invés de filtrar por CPF, filtrar por Protocolo.
 
 Imagine o seguinte cenário:
 
