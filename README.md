@@ -17,3 +17,6 @@
 # Imagine o seguinte, uma pessoa (CPF) pode dar entrada em vários processos na mesma data, com a mesma atividade, e todas podem estar no mesmo status (em análise), 
 # a chave primária da tabela processo, obviamente seria o protocolo, mas só foi adicionado depois, como um campo texto livre. então por esse motivo, arrumei esse "jeitinho" de Filtrar pelo cpf, 
 # depois pesquisar pela coluna de "Comentários" pra só aí fazer a atualização/inserção do processo.
+
+#LEMBRE-SE DE BAIXAR O MSEDGE PARA RODAR NO EDGE:
+#https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH#downloads
