@@ -17,17 +17,17 @@ O diagrama abaixo ilustra o fluxo de dados entre os sistemas e como a automaçã
 ```mermaid
 graph LR
     subgraph "Ambiente Regional"
-        A[Sistema Interno<br>(Banco de Dados SQL)]
+        A["Sistema Interno<br>(Banco de Dados SQL)"]
     end
     subgraph "Processo de Extração"
-        B(Exportação<br>de Dados)
+        B["Exportação<br>de Dados"]
     end
     subgraph "Automação"
-        C[📄<br>Arquivo CSV]
-        D[🤖<br>Script de Automação]
+        C["📄<br>Arquivo CSV"]
+        D["🤖<br>Script de Automação"]
     end
     subgraph "Ambiente Nacional"
-        E[Sistema da Diretoria<br>(Interface Web)]
+        E["Sistema da Diretoria<br>(Interface Web)"]
     end
 
     A -- "1. Extração via SQL" --> B;
